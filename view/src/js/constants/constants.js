@@ -1,0 +1,3 @@
+export const SEND_DATA = 'SEND_DATA';
+export const MESSAGES_LOADED = 'MESSAGES_LOADED';
+export const MESSAGES_ERROR = 'MESSAGES_ERROR';

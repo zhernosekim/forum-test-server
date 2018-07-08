@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 app.get('/message', forum.getMessages);
 app.post('/message', forum.addMessage);
 
-const root = `${__dirname}/public`;
+const root = `${__dirname}/view/public`;
 app.use(express.static(root));
 app.use(fallback('index.html', { root }));
 
