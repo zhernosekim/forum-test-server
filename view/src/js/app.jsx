@@ -1,15 +1,12 @@
 import React  from 'react';
 
 class App extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         const children = this.props.children;
 
         return (
             <div className="app">
+                <h1>Супер тема.</h1>
                 {children}
             </div>
         );
