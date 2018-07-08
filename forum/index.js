@@ -16,7 +16,7 @@ const forum =  {
 
         } else {
             messages.push({title: req.body.title, body: req.body.body});
-            res.status(200);
+            res.status(200).send();
         }
     }
 };
